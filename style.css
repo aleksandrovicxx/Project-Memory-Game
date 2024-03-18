@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+.leviKontejner{
+    background-color: rgb(255, 129, 129);
+    width: 70%;
+    float: left;
+}
+.desniKontejner{
+    background-color: rgb(157, 157, 245);
+    width: 30%;
+    float: left;
+}
+#naslov{
+    margin-right: 40px;
+}
+img{
+    width: 65px;
+    height: 65px;
+    margin: 5px;
+}
+.neotvorena{
+    color: white;
+}
+.divZaJednuSliku{
+    float: left;
+    width: 66px;
+}
+#tabela{
+    text-align: center;
+    width: 100%;
+}
+table td {
+    border: 1px solid salmon;
+}
+.poravnanje {
+    width: 100%;
+    text-align: center;
+}
