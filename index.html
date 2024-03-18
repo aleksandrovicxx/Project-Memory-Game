@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div class="leviKontejner">
+        <h3>
+            <span id="naslov">Igra memorije</span>
+            <span id="vreme">00</span>
+        </h3>
+        <input type="text" id="ime" placeholder="Unesite ime">
+        <div id="radioDugmad">
+            <input type="radio" name="tezina" id="lako" value="lako" checked>
+            <label for="lako">Lako</label>
+            <input type="radio" name="tezina" id="srednje">
+            <label for="srednje">Srednje</label>
+            <input type="radio" name="tezina" id="tesko">
+            <label for="tesko">Teško</label>
+            <input type="radio" name="tezina" id="expert">
+            <label for="expert">Expert</label>
+        </div>
+        <div id="kartice">
+        
+        </div>
+    </div>
+    <div class="desniKontejner">
+        <h3 style="text-align: center;">Najbolji rezultati</h3>
+        <div style="text-align: center;">
+            <input type="button" id="buttonLako" value="Lako">
+            <input type="button" id="buttonSrednje" value="Srednje">
+            <input type="button" id="buttonTesko" value="Tesko">
+            <input type="button" id="buttonExpert" value="Expert">
+        </div>
+       <div id="divZaTabelu">
+        
+       </div>
+    </div>
+   <script src="script.js"></script>
+</body>
+</html>
